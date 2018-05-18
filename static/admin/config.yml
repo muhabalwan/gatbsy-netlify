@@ -1,0 +1,14 @@
+backend:
+  name: test-repo
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: aboutUs
+    label: About Us
+    folder: about-us
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
